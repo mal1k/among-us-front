@@ -130,9 +130,9 @@ document.addEventListener('DOMContentLoaded', () => {
             if(singleSlider.length){
                 singleSlider.forEach(function(e){
                     var single = new Splide( '#'+e.id, {
-                        type:'loop',
+                        // type:'loop',
                         autoplay:true,
-                        interval:4000,
+                        interval:5000,
                         perPage: 1,
                     }).mount();
                     var sliderNext = document.querySelectorAll('.slider-next');
