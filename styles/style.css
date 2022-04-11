@@ -6889,6 +6889,10 @@ input[type=number] {
   background-color: #17171ffa;
 }
 
+.theme-space .bg-theme {
+  background-color: #0f1117 !important;
+}
+
 .theme-space .otp,
 .theme-space .lobby-password {
   border: 0 !important;
