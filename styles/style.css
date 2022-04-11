@@ -2217,10 +2217,10 @@ button {
   left: 0px;
   right: 0px;
   bottom: 0px;
-  width: 2000px;
+  width: 1000px;
   height: 100%;
   z-index: 0;
-  animation: infiniteBG 600s;
+  animation: infiniteBG 800s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   background-size: cover;
@@ -6862,4 +6862,42 @@ input[type=number] {
 
 .slider-cover-dots .splide__pagination {
   transform: translate(-50%, -40px) !important;
+}
+
+/* Custom astroman theme */
+
+.theme-space,
+.theme-space .page-bg,
+.theme-space #page
+{
+  background-color: transparent !important;
+  background-image: url('/images/bg.jpeg') !important;
+}
+
+.theme-space h1,
+.theme-space h2,
+.theme-space h3,
+.theme-space h4,
+.theme-space h5,
+.theme-space h6,
+.theme-space p
+{
+  color: white;
+}
+
+.theme-space .card-style {
+  background-color: #17171ffa;
+}
+
+.theme-space .otp,
+.theme-space .lobby-password {
+  border: 0 !important;
+  border-radius: 10px;
+}
+
+.theme-space .lobby-password,
+.theme-space .lobby-password::placeholder {
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 18px !important;
 }
