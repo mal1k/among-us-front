@@ -122,19 +122,19 @@ body {
 }
 
 .theme-light .header .header-logo {
-  background-image: url(../images/preload-logo.png);
+  background-image: url(../images/preload-logo.jpg);
 }
 
 .theme-dark .header .header-logo {
-  background-image: url(../images/preload-logo.png);
+  background-image: url(../images/preload-logo.jpg);
 }
 
 .theme-light .footer .footer-logo {
-  background-image: url(../images/preload-logo.png);
+  background-image: url(../images/preload-logo.jpg);
 }
 
 .theme-dark .footer .footer-logo {
-  background-image: url(../images/preload-logo.png);
+  background-image: url(../images/preload-logo.jpg);
 }
 
 /*--Header---*/
