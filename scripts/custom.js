@@ -245,7 +245,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 //Open Clicked Menu
                 var menuData = el.getAttribute('data-menu');
                 document.getElementById(menuData).classList.add('menu-active');
-                document.getElementsByClassName('menu-hider')[0].classList.add('menu-active');
+                // document.getElementsByClassName('menu-hider')[0].classList.add('menu-active');
                 //Check and Apply Effects
                 var menu = document.getElementById(menuData);
                 var menuEffect = menu.getAttribute('data-menu-effect');
