@@ -1,5 +1,5 @@
 {
-"version": "0.0.3",
+"version": "0.0.4",
 "comment": "---Above version must be the same as data-pwa-version",
 "comment": "---data-pwa-version can be found in index.html in the manifest tag",
 "comment": "---if versions are not the same it will cause an update loop",
@@ -28,20 +28,8 @@
 	  "purpose": "any maskable"
 	},
 	{
-	  "src": "app/icons/icon-128x128.png",
-	  "sizes": "128x128",
-	  "type": "image/png",
-	  "purpose": "any maskable"
-	},
-	{
 	  "src": "app/icons/icon-144x144.png",
 	  "sizes": "144x144",
-	  "type": "image/png",
-	  "purpose": "any maskable"
-	},
-	{
-	  "src": "app/icons/icon-152x152.png",
-	  "sizes": "152x152",
 	  "type": "image/png",
 	  "purpose": "any maskable"
 	},
@@ -52,15 +40,9 @@
 	  "purpose": "any maskable"
 	},
 	{
-	  "src": "app/icons/icon-384x384.png",
-	  "sizes": "384x384",
-	  "type": "image/png",
-	  "purpose": "any maskable"
-	},
-	{
-	  "src": "app/icons/icon-512x512.png",
+	  "src": "app/icons/icon-512x512.jpg",
 	  "sizes": "512x512",
-	  "type": "image/png",
+	  "type": "image/jpg",
 	  "purpose": "any maskable"
 	}
   ]
