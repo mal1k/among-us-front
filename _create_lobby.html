@@ -123,23 +123,13 @@
 <script type="text/javascript" src="scripts/custom.js"></script>
 
 <script>
-    function unlockScroll () {
-        const scrollY = this.body.style.top;
-        document.body.style.position = '';
-        document.body.style.top = '';
-        document.body.style.left = '';
-        document.body.style.right = '';
-        window.scrollTo(0, parseInt(scrollY || '0') * -1);
-    };
-
-    function lockScroll () {
-        document.body.style.position = 'fixed';
-        document.body.style.top = `-${window.scrollY}px`;
-        document.body.style.left = '0';
-        document.body.style.right = '0';
-    };
-
-    lockScroll();
+    window.addEventListener('orientationchange', function ()
+    {
+        if (window.innerHeight > window.innerWidth)
+        {
+            document.getElementsByTagName('body')[0].style.transform = "rotate(90deg)";
+        }
+    });
 </script>
 
 </body>
